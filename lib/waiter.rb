@@ -30,6 +30,6 @@ class Waiter
     end
     best_tipped_meal
   end
-      
+
 
 end
