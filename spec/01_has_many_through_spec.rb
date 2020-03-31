@@ -214,4 +214,3 @@ describe "Object relationships" do
       end
     end
   end
-end
