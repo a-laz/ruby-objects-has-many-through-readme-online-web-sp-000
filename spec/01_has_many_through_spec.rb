@@ -273,7 +273,7 @@ describe "Object relationships" do
         meal_5 = steven.new_meal(terrance, 15, 3)
         meal_6 = lisa.new_meal(terrance, 15, 3)
 
-        expect
+        expect(terrance.avg_tips).to eq(3)
       end
     end
   end
