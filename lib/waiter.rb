@@ -31,5 +31,10 @@ class Waiter
     best_tipped_meal.customer
   end
 
+  def customers
+    meals.map do |meal|
+      meal.customer
+    end
+  end
 
 end
