@@ -37,4 +37,8 @@ class Waiter
     end
   end
 
+  def most_freq_customer
+    customers.max_by{|c| customers.count(c)}
+  end
+
 end
