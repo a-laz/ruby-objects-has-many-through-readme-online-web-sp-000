@@ -276,5 +276,11 @@ describe "Object relationships" do
         expect(terrance.avg_tips).to eq(3)
       end
     end
+
+    describe "#all_tips" do
+      it "returns all the tips for all waiters meals" do
+        
+      end
+    end
   end
 end
