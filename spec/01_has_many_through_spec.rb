@@ -196,7 +196,7 @@ describe "Object relationships" do
     end
 
     describe "#customers" do
-      it "returns an array of all the waiter's customers"
+      it "returns an array of all the waiter's customers" do
         howard = Customer.new("Howard", 30)
         daniel = Customer.new("Daniel", 30)
         terrance = Waiter.new("Terrance", 1)
@@ -214,3 +214,4 @@ describe "Object relationships" do
       end
     end
   end
+end
