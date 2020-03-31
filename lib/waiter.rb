@@ -45,6 +45,10 @@ class Waiter
     meals.min { |m_1, m_2| m_1.tip <=> m_2.tip }
   end
 
+  def avg_tips
+    
+  end
 
+  
 
 end
