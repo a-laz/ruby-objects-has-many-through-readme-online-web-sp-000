@@ -279,7 +279,7 @@ describe "Object relationships" do
 
     describe "#all_tips" do
       it "returns all the tips for all waiters meals" do
-        
+
       end
     end
   end
