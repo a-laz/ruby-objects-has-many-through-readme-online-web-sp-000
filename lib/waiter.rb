@@ -41,4 +41,8 @@ class Waiter
     customers.max_by{|c| customers.count(c)}
   end
 
+  def meal_of_worst_tipping_customer
+    meals.min { |m_1, m_2| m_1.tip <=> m_2.tip }
+  end
+
 end
