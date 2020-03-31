@@ -209,6 +209,7 @@ describe "Object relationships" do
       howard.new_meal(andrew, 15, 5)
       daniel.new_meal(terrance, 20, 1)
       daniel.new_meal(esmery, 15, 3)
+      
       expect(terrance.customers).to eq([howard, daniel])
   end
 end
