@@ -255,5 +255,9 @@ describe "Object relationships" do
         expect(terrance.meal_of_worst_tipping_customer).to eq(meal_4)
       end
     end
+
+    describe "#avg_tips" do
+      it ""
+    end
   end
 end
