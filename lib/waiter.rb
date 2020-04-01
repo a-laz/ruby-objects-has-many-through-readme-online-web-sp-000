@@ -60,4 +60,8 @@ class Waiter
     meals.count
   end
 
+  def self.most_experienced_waiter
+    self.all.max { |w_1, w_2| w_1.yrs_experience <=> w_2.yrs_experience }
+  end
+
 end
