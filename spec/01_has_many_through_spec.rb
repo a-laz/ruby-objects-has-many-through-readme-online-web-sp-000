@@ -318,5 +318,11 @@ describe "Object relationships" do
         expect(terrance.meal_count).to eq(6)
       end
     end
+
+    describe ".most_experienced_waiter" do
+      it "returns the waiter instance with the most yrs_experience" do
+        
+      end
+    end
   end
 end
