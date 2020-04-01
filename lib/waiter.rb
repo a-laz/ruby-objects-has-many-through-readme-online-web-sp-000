@@ -46,6 +46,7 @@ class Waiter
   end
 
   def avg_tips
+    all_tips
 
   end
 
@@ -55,5 +56,8 @@ class Waiter
     sum
   end
 
+  def meal_count
+    
+  end
 
 end
