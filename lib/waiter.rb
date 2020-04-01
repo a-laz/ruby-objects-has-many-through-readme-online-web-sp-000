@@ -68,6 +68,8 @@ class Waiter
     self.all.min { |w_1, w_2| w_1.yrs_experience <=> w_2.yrs_experience }
   end
 
-
+  def self.avg_tips_for_most_and_least_experienced_waiters
+    
+  end
 
 end
