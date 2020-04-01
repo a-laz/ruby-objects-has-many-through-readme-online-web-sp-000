@@ -69,7 +69,14 @@ class Waiter
   end
 
   def self.avg_tips_for_most_and_least_experienced_waiters
-
+    values = {}
+    most = most_experienced_waiter
+    tip_most_avg = most.avg_tips
+    values[most] = tip_most_avg
+    least = least_experienced_waiter
+    tip_least_avg = least.avg_tips
+    values[least] = tip_least_avg
+    values
   end
 
 end
