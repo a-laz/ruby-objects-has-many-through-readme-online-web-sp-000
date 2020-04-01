@@ -358,6 +358,6 @@ describe "Object relationships" do
 
         expect(Waiter.avg_tips_for_most_and_least_experienced_waiters).to eq({:most=>4,:least=>3})
       end
-    end 
+    end
   end
 end
