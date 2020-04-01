@@ -52,6 +52,7 @@ class Waiter
   def all_tips
     sum = 0
     meals.each {|meal| sum+=meal.tip}
+    sum
   end
 
 
