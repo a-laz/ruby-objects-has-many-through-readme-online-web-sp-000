@@ -341,6 +341,23 @@ describe "Object relationships" do
       end
     end
 
-    describe ""
+    describe ".avg_tips_for_most_and_least_experienced_waiters" do
+      it "returns a hash with key value pairs for the avg tips for the most and least experienced waiters" do
+        howard = Customer.new("Howard", 30)
+        daniel = Customer.new("Daniel", 30)
+        terrance = Waiter.new("Terrance", 1)
+        joe = Waiter.new("Joe", 10)
+        esmery = Waiter.new("Esmery", 2)
+        andrew = Waiter.new("Andrew", 3)
+
+        howard.new_meal(terrance, 15, 2)
+        howard.new_meal(joe, 15, 4)
+        howard.new_meal(andrew, 15, 5)
+        daniel.new_meal(terrance, 20, 4)
+        daniel.new_meal(esmery, 15, 3)
+
+        expect(Waiter.avg_tips_for_most_and_least_experienced_waiters).to eq({:most=>4,:least=>3})
+      end
+    end 
   end
 end
