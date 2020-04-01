@@ -57,7 +57,7 @@ class Waiter
   end
 
   def meal_count
-    
+
   end
 
 end
