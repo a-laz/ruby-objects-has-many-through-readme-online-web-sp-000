@@ -64,4 +64,8 @@ class Waiter
     self.all.max { |w_1, w_2| w_1.yrs_experience <=> w_2.yrs_experience }
   end
 
+  def self.least_experienced_waiter
+    self.all.min { |w_1, w_2| w_1.yrs_experience <=> w_2.yrs_experience }
+  end
+
 end
