@@ -337,7 +337,7 @@ describe "Object relationships" do
         esmery = Waiter.new("Esmery", 2)
         andrew = Waiter.new("Andrew", 3)
 
-        expect(Waiter.least_experienced_waiter).to eq(joe)
+        expect(Waiter.least_experienced_waiter).to eq(terrance)
       end
     end
   end
