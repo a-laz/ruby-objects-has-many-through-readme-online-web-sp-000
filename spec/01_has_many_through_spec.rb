@@ -315,7 +315,7 @@ describe "Object relationships" do
         meal_5 = steven.new_meal(terrance, 15, 3)
         meal_6 = lisa.new_meal(terrance, 15, 3)
 
-        expect()
+        expect(terrance.meal_count).to eq(6)
       end
     end
   end
