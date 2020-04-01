@@ -57,7 +57,9 @@ class Waiter
   end
 
   def meal_count
-
+    count = 0
+    meals.each {|meal| meal.count}
+    count
   end
 
 end
