@@ -340,5 +340,7 @@ describe "Object relationships" do
         expect(Waiter.least_experienced_waiter).to eq(terrance)
       end
     end
+
+    describe ""
   end
 end
