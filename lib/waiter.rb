@@ -69,7 +69,7 @@ class Waiter
   end
 
   def self.avg_tips_for_most_and_least_experienced_waiters
-    
+
   end
 
 end
