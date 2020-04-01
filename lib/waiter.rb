@@ -46,7 +46,7 @@ class Waiter
   end
 
   def avg_tips
-    
+
   end
 
   def all_tips
