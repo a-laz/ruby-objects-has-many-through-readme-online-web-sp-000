@@ -46,8 +46,8 @@ class Waiter
   end
 
   def avg_tips
-    all_tips
-
+    tip = all_tips/meal_count
+    tip
   end
 
   def all_tips
