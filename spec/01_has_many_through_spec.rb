@@ -329,5 +329,16 @@ describe "Object relationships" do
         expect(Waiter.most_experienced_waiter).to eq(joe)
       end
     end
+
+    describe ".least_experienced_waiter" do
+      it "returns the waiter instance with the least yrs_experience" do
+        terrance = Waiter.new("Terrance", 1)
+        joe = Waiter.new("Joe", 10)
+        esmery = Waiter.new("Esmery", 2)
+        andrew = Waiter.new("Andrew", 3)
+
+        expect(Waiter.least_experienced_waiter).to eq(joe)
+      end
+    end
   end
 end
