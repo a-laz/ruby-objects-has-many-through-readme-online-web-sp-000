@@ -321,7 +321,7 @@ describe "Object relationships" do
 
     describe ".most_experienced_waiter" do
       it "returns the waiter instance with the most yrs_experience" do
-        
+
       end
     end
   end
