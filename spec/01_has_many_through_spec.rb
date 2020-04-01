@@ -356,7 +356,7 @@ describe "Object relationships" do
         daniel.new_meal(terrance, 20, 4)
         daniel.new_meal(esmery, 15, 3)
 
-        expect(Waiter.avg_tips_for_most_and_least_experienced_waiters).to eq({:most=>4,:least=>3})
+        expect(Waiter.avg_tips_for_most_and_least_experienced_waiters).to eq({joe=>4,terrance=>3})
       end
     end
   end
