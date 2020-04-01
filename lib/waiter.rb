@@ -46,9 +46,13 @@ class Waiter
   end
 
   def avg_tips
-
+    
   end
 
+  def all_tips
+    sum = 0
+    meals.each {|meal| sum+=meal.tip}
+  end
 
 
 end
